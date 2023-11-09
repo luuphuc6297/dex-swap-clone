@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "paths": {
+      "@pancakeswap/sdk": ["../../packages/swap-sdk/src"],
+      "@pancakeswap/swap-sdk-core": ["../../packages/swap-sdk-core/src"],
+      "@pancakeswap/v3-sdk": ["../../packages/v3-sdk/src"],
+      "@pancakeswap/smart-router/*": ["../../packages/smart-router/*"]
+    }
+  }
+}

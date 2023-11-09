@@ -1,0 +1,1 @@
+export const UnknownToken = '/assets/cryptocurrency-icons/empty.svg'
